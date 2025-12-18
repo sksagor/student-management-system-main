@@ -45,7 +45,7 @@
                                           <h2 class="table-avatar">
                                              <a href="{% url 'view_student' student.student_id %}" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="{{ student.student_image.url }}" alt="User Image"></a>
                                              <a href="{% url 'view_student' student.student_id %}">{{ student.first_name }} {{ student.last_name}}</a>
-                                          </h2>
+                                         </h2>
                                        </td>
                                        <td>{{ student.student_class }}</td>
                                        <td>{{ student.date_of_birth|date:"d M Y" }}</td>
